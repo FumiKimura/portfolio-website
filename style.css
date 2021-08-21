@@ -5,17 +5,18 @@
 }
 
 html {
-  background-color: #202020;
+  background-color: white;
 }
 
 h2 {
-  color:aliceblue  
+  font-size: 40px;
+  color: black;
 }
 
 .container {
-  height: 100vh;
+  height: 90vh;
+  width: 100vw;
   text-align: center;
-  position: relative;
 }
 
 nav {
@@ -41,12 +42,13 @@ nav {
   
 .carousel__face {
   position: absolute;
-  left: 15px;
-  top: 15px;
-  width: 180px;
+  left: 10px;
+  top: 10px;
+  width: 190px;
   height: 90%;
   transition: transform 1s;
 }
+
 
 #my-pic {
   border-radius: 10px;
@@ -56,6 +58,7 @@ nav {
 #about-me {
   border-radius: 10px;
   background-color:#fffacd;
+  padding: 0 5px;  
 }
 
 #projects {
@@ -73,13 +76,22 @@ nav {
   background-color:#afeeee;
 }
 
-.carousel__cell:nth-child(1) {transform: rotateY(0deg) translateZ(var(--PI)/var(--faceNum));}
-.carousel__cell:nth-child(2) {transform: rotateY(72deg) translateZ(var(--PI)/var(--faceNum));}
-.carousel__cell:nth-child(3) {transform: rotateY(144deg) translateZ(var(--PI)/var(--faceNum));}
-.carousel__cell:nth-child(4) {transform: rotateY(218deg) translateZ(var(--PI)/var(--faceNum));}
-.carousel__cell:nth-child(5) {transform: rotateY(290deg) translateZ(var(--PI)/var(--faceNum));}
+.carousel__cell:nth-child(1){
+  transform: rotateY(0deg) translateZ(var(--PI)/var(--faceNum));
+}
+.carousel__cell:nth-child(2){
+  transform: rotateY(72deg) translateZ(var(--PI)/var(--faceNum));
+}
+.carousel__cell:nth-child(3){
+  transform: rotateY(144deg) translateZ(var(--PI)/var(--faceNum));
+}
+.carousel__cell:nth-child(4){
+  transform: rotateY(218deg) translateZ(var(--PI)/var(--faceNum));
+}
+.carousel__cell:nth-child(5){
+  transform: rotateY(290deg) translateZ(var(--PI)/var(--faceNum));
+}
 
-.hello {
-  font-size: 80px;
-  color: red;
+.btn { 
+  text-align: center;
 }

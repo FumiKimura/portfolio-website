@@ -70,14 +70,18 @@ nav {
   border-radius: 10px;
   background-color: white;
   border: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 #about-me {
   border-radius: 10px;
   background-color: white;
   padding: 0 5px;  
   border: black solid 2px;
-  overflow-y: auto;
 }
 
 #projects {
@@ -98,9 +102,16 @@ nav {
   border: black solid 2px;
 }
 
+.image {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
 .link-images {
   text-align: left;
 }
+
+
 
 .carousel__cell:nth-child(1){
   transform: rotateY(0deg) translateZ(var(--PI)/var(--faceNum));

@@ -13,6 +13,10 @@ h2 {
   color: black;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 .container {
   height: 90vh;
   width: 100vw;
@@ -47,33 +51,45 @@ nav {
   width: 190px;
   height: 90%;
   transition: transform 1s;
+
+  overflow-wrap: break-word;
 }
 
 
 #my-pic {
   border-radius: 10px;
-  background-color:#ffdab9;
+  background-color: white;
+  border: black solid 2px;
 }
 
 #about-me {
   border-radius: 10px;
-  background-color:#fffacd;
+  background-color: white;
   padding: 0 5px;  
+  border: black solid 2px;
+  overflow-y: auto;
 }
 
 #projects {
   border-radius: 10px;
-  background-color: #00bfff;
+  background-color: white;
+  border: black solid 2px;
 }
 
 #interests {
   border-radius: 10px;
-  background-color: #adff2f;
+  background-color: white;
+  border: black solid 2px;
 }
 
 #links {
   border-radius: 10px;
-  background-color:#afeeee;
+  background-color: white;
+  border: black solid 2px;
+}
+
+.link-images {
+  text-align: left;
 }
 
 .carousel__cell:nth-child(1){

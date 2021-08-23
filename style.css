@@ -62,56 +62,33 @@ nav {
   height: 90%;
   transition: transform 1s;
 
-  overflow-wrap: break-word;
-}
-
-
-#my-pic {
+  /* Face Formatting */
   border-radius: 10px;
   background-color: white;
-  border: black solid 2px;
+  border: black solid 2px
+}
+
+#my-pic {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-
 #about-me {
-  border-radius: 10px;
-  background-color: white;
   padding: 0 5px;  
-  border: black solid 2px;
-}
-
-#projects {
-  border-radius: 10px;
-  background-color: white;
-  border: black solid 2px;
-}
-
-#interests {
-  border-radius: 10px;
-  background-color: white;
-  border: black solid 2px;
-}
-
-#links {
-  border-radius: 10px;
-  background-color: white;
-  border: black solid 2px;
-}
-
-.image {
-  margin-bottom: 1em;
-  margin-left: 1em;
 }
 
 .link-images {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.image {
+  margin-bottom: 2em;
+}
 
 .carousel__cell:nth-child(1){
   transform: rotateY(0deg) translateZ(var(--PI)/var(--faceNum));

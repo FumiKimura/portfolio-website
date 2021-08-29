@@ -27,13 +27,13 @@ function initialSetup(){
     rotateCarousel();
 }
   
-const rightBtn = document.querySelector('.right-btn');
+const rightBtn = document.getElementById('right-btn');
 rightBtn.addEventListener('click', function() {
     selectedIndex++;
     rotateCarousel();
 });
   
-const leftBtn = document.querySelector('.left-btn');
+const leftBtn = document.getElementById('left-btn');
 leftBtn.addEventListener('click', function() {
     selectedIndex--;
     rotateCarousel();

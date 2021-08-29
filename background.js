@@ -44,26 +44,6 @@ class Particles {
             this.directionY = -this.directionY;
         }
 
-        let dx = mousePos.x - this.x;
-        let dy = mousePos.y - this.y;
-        let distance = Math.pow(dx,2) + Math.pow(dy,2);
-
-        //if particle and mouse pointer's circle collide
-        if(distance < this.size + mousePos.radius){
-            if(mousePos.x < this.x && this.x < canvas.width - this.size * 10){
-                this.x += 100;
-            } 
-            if(mousePos.x > this.x && this.x > this.size * 10){
-                this.x -= 100;
-            }
-            if(mousePos.y < this.y && this.y < canvas.height - this.size * 10){
-                this.y += 100;
-            }
-            if(mousePos.y > this.y && this.y > this.size * 10){
-                this.y -= 100;
-            }
-        } 
-
         this.x += this.directionX;
         this.y += this.directionY;
         this.draw();

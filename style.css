@@ -33,6 +33,11 @@ h3 {
   text-decoration: underline;
 }
 
+p {
+  color: #05386B;
+  margin-bottom:1em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -40,6 +45,7 @@ ul {
 }
 
 li {
+  color: #05386B;
   margin-bottom: 1em;
 }
 
@@ -128,6 +134,7 @@ nav {
 .btn {
   width:100px;
   height:35px;
+  font-size: 25px;
   font-weight:bold;
   color:white;
   border-radius: 10px;

@@ -6,9 +6,7 @@ let particlesArray;
 
 let mousePos = {
     x: null,
-    y: null,
-    //radius of mouse used for collision
-    radius: (canvas.height/90) * (canvas.width/90)
+    y: null
 }
 
 window.addEventListener("mousemove", (event) => {
